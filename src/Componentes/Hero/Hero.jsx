@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <HeroContainer>
       <TextoPrincipal>
-        <h1>Lorem ipsum dolor sit.</h1>
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nostrum numquam iste aliquam veritatis autem?</p>
+        <h1>Buscas destacar con tu pagina web?</h1>
+        <h2>En BecaTemplates tenemos lo que necesitas</h2>
+        <p>Armamos tu pagina web para que puedas mostrar tus productos o vender tus servicios!</p>
         <Buttons>
         <button className='plan'>Elegir plan</button>
         <button className='mas-info'>Mas info <FiArrowRight className='FiArrowRight'/></button>

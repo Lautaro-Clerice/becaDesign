@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     @media (max-width:930px) {
     flex-direction: column;
-    height: 800px;
+    height: 1000px;
 }
 `
 
@@ -20,7 +20,7 @@ height: 600px;
 display: flex;
 flex-direction: column;
 align-items: start;
-text-align: center;
+text-align: start;
 justify-content: center;
 h1 {
     color: #fff;
@@ -29,17 +29,23 @@ h1 {
 }
 h2 {
     margin-top: -10px;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 400;
     color:#006ECC;
 }
 p {
+
+    margin-top:-20px;
+    width:70%;
     text-align: start;
     color: #718096;
-    font-size: 18px;
+    font-size: 17px;
 }
 @media (max-width: 930px) {
     width: 90%;
+    p {
+        width:100%;
+    }
 }
 `
 export const ImgPrincipal = styled.div`
