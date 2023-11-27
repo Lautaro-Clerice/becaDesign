@@ -5,7 +5,9 @@ const Main = () => {
   return (
     <>
     <MainContainer>
-        <Services/>
+        <Services>
+          <h2>Hacemos tu pagina acorde a tus necesidades</h2>
+        </Services>
     </MainContainer>
     </>
   )
