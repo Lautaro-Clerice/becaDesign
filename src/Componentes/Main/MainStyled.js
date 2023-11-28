@@ -25,4 +25,31 @@ export const Services = styled.div`
         font-size: 34px;
         font-weight: 500;
     }
+    p {
+        margin-top: -20px;
+        color: #718096;
+    }
 `
+export const OptionsPadre = styled.div`
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 200px;
+`
+export const OptionServices = styled.div`
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .IconoServices {
+        font-size: 80px;
+        color: #152c5b ;
+    }
+    p {
+        font-weight: 400;
+        margin-top: 10px;
+        color: #142c5a;
+        width: 250px;
+        text-align: center;
+    }
+    `

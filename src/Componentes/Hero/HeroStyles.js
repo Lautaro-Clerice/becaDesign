@@ -24,12 +24,12 @@ text-align: start;
 justify-content: center;
 h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     font-weight:400 ;
 }
 h2 {
     margin-top: -10px;
-    font-size: 28px;
+    font-size:26px;
     font-weight: 400;
     color:#006ECC;
 }
