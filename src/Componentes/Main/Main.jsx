@@ -1,9 +1,11 @@
 import React from 'react'
-import { MainContainer, OptionServices, OptionsContainer, OptionsPadre, Planes, PlanesOptions, Services } from './MainStyled'
+import { DetailsPlan, MainContainer, OptionServices, OptionsContainer, OptionsPadre, Planes, PlanesOptions, Services } from './MainStyled'
 import { MdScreenshotMonitor } from "react-icons/md";
 import { PiPaintBrush } from "react-icons/pi";
 import { BsEmojiSunglasses } from "react-icons/bs";
 import { FaComputer } from "react-icons/fa6";
+import { IoCheckmark } from "react-icons/io5";
+import { SlQuestion } from "react-icons/sl";
 
 const Main = () => {
   return (
@@ -36,7 +38,18 @@ const Main = () => {
           <h2>Elegi el plan ideal para tu negocio</h2>
           <OptionsContainer>
             <PlanesOptions>
+              <h3>Plan emprendedor</h3>
+              <p>Ideal para mostrar tus productos y darte a conocer</p>
+              <button className='plan'>Consultar precio</button>
+              <hr />
+              <h4>Caracteristicas</h4>
+              <DetailsPlan>
+              <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/> <SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
 
+              </DetailsPlan>
             </PlanesOptions>
             <PlanesOptions>
 
