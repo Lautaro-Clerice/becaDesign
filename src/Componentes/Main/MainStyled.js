@@ -14,7 +14,7 @@ export const MainContainer = styled.main`
 
 export const Services = styled.div`
     width:90%;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,9 @@ export const OptionsPadre = styled.div`
     display: flex;
     justify-content: space-around;
     width: 90%;
-    height: 200px;
+    height: auto;
+    flex-wrap: wrap;
+
 `
 export const OptionServices = styled.div`
     display:flex;
@@ -52,4 +54,34 @@ export const OptionServices = styled.div`
         width: 250px;
         text-align: center;
     }
-    `
+`
+
+export const Planes = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:90%;
+    height: auto;
+    margin-top: 50px;
+    h2 {
+        text-align: center;
+        color: #152c5b;
+        font-size: 34px;
+        font-weight: 500;
+    }
+`
+export const OptionsContainer = styled.div`
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+`
+export const PlanesOptions = styled.div`
+    border-radius:10px;
+    width: 300px;
+    height: 500px;
+    border: 1.5px solid #006ECC;
+`

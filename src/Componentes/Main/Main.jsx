@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainContainer, OptionServices, OptionsPadre, Services } from './MainStyled'
+import { MainContainer, OptionServices, OptionsContainer, OptionsPadre, Planes, PlanesOptions, Services } from './MainStyled'
 import { MdScreenshotMonitor } from "react-icons/md";
 import { PiPaintBrush } from "react-icons/pi";
 import { BsEmojiSunglasses } from "react-icons/bs";
@@ -32,6 +32,20 @@ const Main = () => {
           </OptionServices>
         </OptionsPadre>
         </Services>
+        <Planes>
+          <h2>Elegi el plan ideal para tu negocio</h2>
+          <OptionsContainer>
+            <PlanesOptions>
+
+            </PlanesOptions>
+            <PlanesOptions>
+
+            </PlanesOptions>
+            <PlanesOptions>
+
+            </PlanesOptions>
+          </OptionsContainer>
+        </Planes>
     </MainContainer>
     </>
   )
