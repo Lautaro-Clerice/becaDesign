@@ -42,12 +42,15 @@ const Main = () => {
               <p>Ideal para mostrar tus productos y darte a conocer</p>
               <button className='plan'>Consultar precio</button>
               <hr />
-              <h4>Caracteristicas</h4>
+              <h4>Incluye</h4>
               <DetailsPlan>
               <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/> <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Pagina auto administrable <SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Gestion de Dominio<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Adaptable a todos los dispositivos<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Pasarela de pago<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Gestion de Hosting<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Gestion de Hosting<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Gestion de Hosting<SlQuestion className='SlQuestion'/></p>
 
               </DetailsPlan>
             </PlanesOptions>

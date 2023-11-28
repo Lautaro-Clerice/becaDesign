@@ -128,6 +128,7 @@ export const DetailsPlan = styled.div`
     flex-direction:column;
     align-items: start;
     margin-left: 30px;
+    text-align: start;
     width:100%;
     p {
         margin-top:-10px;
@@ -142,6 +143,9 @@ export const DetailsPlan = styled.div`
             cursor: pointer;
             margin-left: 20px;
         }
+    }
+    .Dispositivos{
+        font-size: 14px;
     }
 
 `
