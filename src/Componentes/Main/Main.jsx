@@ -39,52 +39,56 @@ const Main = () => {
           <OptionsContainer>
             <PlanesOptions>
               <h3>Plan emprendedor</h3>
-              <p>Ideal para mostrar tus productos y darte a conocer</p>
+              <p>Plan perfecto para pequeños proyectos</p>
               <hr />
               <h4>Incluye</h4>
               <DetailsPlan>
-              <p><IoCheckmark className='IoCheckmark'/>Pagina autoadministrable <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Hasta 5 secciones<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Landing page<SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Gestion de Dominio<SlQuestion className='SlQuestion'/></p>
-              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Adaptable a todos los dispositivos<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Pasarela de pago<SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Diseño de logo<SlQuestion className='SlQuestion'/></p>
+              
+              <p><IoCheckmark className='IoCheckmark'/>Maximo 3 secciones<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Hosting por un año<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Vinculo a Whatsapp y redes<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Adaptable a todos los dispositivos<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Vinculo a catalogo de productos<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Tiempo de entrega 20 dias<SlQuestion className='SlQuestion'/></p>
+
+              </DetailsPlan>
+              <button className='plan'>Consultar precio</button>
+            </PlanesOptions>
+            <PlanesOptions className='masVendido'>
+              <span><h5>MAS VENDIDO</h5></span>
+            <h3>Plan Business </h3>
+              <p>Paquete enfocado en la venta de productos</p>
+              <hr />
+              <h4>Incluye</h4>
+              <DetailsPlan>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Todo lo del plan Emprendedor y..<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>+20 plantillas para elegir<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Hasta 5 secciones<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Boton a Whatsapp<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Seccion de Productos <SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Carrito<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Vinculo a tus redes<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>7 dias de soporte gratis<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Tiempo de entrega 40 dias<SlQuestion className='SlQuestion'/></p>
               </DetailsPlan>
               <button className='plan'>Consultar precio</button>
             </PlanesOptions>
             <PlanesOptions>
-            <h3>Plan emprendedor</h3>
-              <p>Ideal para mostrar tus productos y darte a conocer</p>
+            <h3>Plan Premium</h3>
+              <p>Atencion premium, personalizable 100%</p>
               <hr />
               <h4>Incluye</h4>
               <DetailsPlan>
-              <p><IoCheckmark className='IoCheckmark'/>Pagina autoadministrable <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Hasta 5 secciones<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Gestion de Dominio<SlQuestion className='SlQuestion'/></p>
-              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Adaptable a todos los dispositivos<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Todo lo del plan Business y.. <SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Pasarela de pago<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Diseño de logo<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Carrito<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Vinculo a tus redes<SlQuestion className='SlQuestion'/></p>
-              </DetailsPlan>
-              <button className='plan'>Consultar precio</button>
-            </PlanesOptions>
-            <PlanesOptions>
-            <h3>Plan emprendedor</h3>
-              <p>Ideal para mostrar tus productos y darte a conocer</p>
-              <hr />
-              <h4>Incluye</h4>
-              <DetailsPlan>
-              <p><IoCheckmark className='IoCheckmark'/>Pagina autoadministrable <SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Hasta 5 secciones<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Gestion de Dominio<SlQuestion className='SlQuestion'/></p>
-              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Adaptable a todos los dispositivos<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Pasarela de pago<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Diseño de logo<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Carrito<SlQuestion className='SlQuestion'/></p>
-              <p><IoCheckmark className='IoCheckmark'/>Vinculo a tus redes<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Diseño de pagina personalizado<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Formulario de contacto directo<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Animaciones Premium<SlQuestion className='SlQuestion'/></p>
+              <p className='Dispositivos'><IoCheckmark className='IoCheckmark'/>Hasta 5 correos con tu nombre <SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Soporte gratis 15 dias<SlQuestion className='SlQuestion'/></p>
+              <p><IoCheckmark className='IoCheckmark'/>Hasta 5 cambios Gratis<SlQuestion className='SlQuestion'/></p>
               </DetailsPlan>
               <button className='plan'>Consultar precio</button>
             </PlanesOptions>

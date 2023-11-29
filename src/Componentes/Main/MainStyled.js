@@ -57,11 +57,7 @@ export const OptionServices = styled.div`
 `
 
 export const Planes = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+
     width:90%;
     height: 900px;
     h2 {
@@ -77,6 +73,9 @@ export const OptionsContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    .masVendido {
+        border:2px solid #006ECCba;
+    }
 `
 export const PlanesOptions = styled.div`
     border-radius:4px;
@@ -87,6 +86,20 @@ export const PlanesOptions = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
+    span {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:200px;
+        height: 40px;
+        background-color: #2f9dfe;
+        color: white;
+        border-radius: 45px;
+        h5 {
+
+        }
+    }
     h3 {
         margin-top: 50px;
         font-size: 22px;
