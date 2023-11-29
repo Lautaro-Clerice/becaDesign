@@ -63,8 +63,7 @@ export const Planes = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     width:90%;
-    height: auto;
-    margin-top: 50px;
+    height: 900px;
     h2 {
         text-align: center;
         color: #152c5b;
@@ -82,7 +81,7 @@ export const OptionsContainer = styled.div`
 export const PlanesOptions = styled.div`
     border-radius:4px;
     width: 300px;
-    height: 500px;
+    height: 600px;
     border: 1.5px solid #006ECC5c;
     display:flex;
     flex-direction: column;
@@ -99,9 +98,10 @@ export const PlanesOptions = styled.div`
         color:#718096;
     }
     button {
+        margin-top:20px;
         border: none;
         width: 150px;
-        height: 50px;
+        height: 60px;
         border-radius: 10px;
         font-size: 17px;
     }
@@ -121,6 +121,11 @@ export const PlanesOptions = styled.div`
     h4 {
         align-self: start;
         margin-left: 30px;
+    }
+    transition:.5s;
+    &:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0px 5px 8px #80808096;
     }
 `
 export const DetailsPlan = styled.div`
