@@ -59,7 +59,8 @@ export const OptionServices = styled.div`
 export const Planes = styled.div`
 
     width:90%;
-    height: 900px;
+    height: auto;
+    margin-bottom: 70px;
     h2 {
         text-align: center;
         color: #152c5b;
@@ -72,6 +73,7 @@ export const OptionsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: auto;
     gap: 20px;
     .masVendido {
         border:2px solid #006ECCba;
