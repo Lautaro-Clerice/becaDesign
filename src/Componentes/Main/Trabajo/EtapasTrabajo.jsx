@@ -6,6 +6,7 @@ import { TbEyeStar } from "react-icons/tb";
 const EtapasTrabajo = () => {
   return (
     <>
+    
     <EtapasContainer>
         <TituloEtapas>
             <h2>Nuestra modalidad de trabajo</h2>

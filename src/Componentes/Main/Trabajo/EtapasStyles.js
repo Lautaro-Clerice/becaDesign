@@ -8,6 +8,15 @@ background-color: #0f8fff;
 display: flex;
 flex-direction: column;
 align-items:center;
+&:after {
+    position:absolute;
+    width:100%;
+    height: 100px;
+    content:"";
+    background-color:#0f8fff;
+    transform-origin: top right;
+    transform: skewY(2deg)
+}
 `
 
 export const TituloEtapas = styled.div`
@@ -103,3 +112,4 @@ export const OpcionesEtapas = styled.div`
     }
 
 `
+

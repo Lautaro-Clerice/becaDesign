@@ -9,6 +9,17 @@ export const MainContainer = styled.main`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    &:after {
+    position:absolute;
+    width:100%;
+    height: 100px;
+    content:"";
+    top: -80px;
+    background-color:#0E0B2B;
+    transform-origin: top right;
+    transform: skewY(-3deg)
+}
 `
 
 
