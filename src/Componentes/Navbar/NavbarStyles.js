@@ -97,10 +97,11 @@ export const NavbarOptions = styled.div`
     }
     
     @media (max-width: 930px) {
+        z-index: 10000;
         flex-direction: column;
         width: 350px;
         height: 100%;
-        position: absolute;
+        position: fixed;
         top: 1px;
         right: 0;
         justify-content: start;
