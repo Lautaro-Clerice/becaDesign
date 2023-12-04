@@ -3,6 +3,7 @@ import { LayoutWrapper } from './LayoutStyles'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
 import Main from "../Main/Main"
+import Footer from '../Footer/Footer'
 const Layout =() => {
   return (
     <>
@@ -11,6 +12,7 @@ const Layout =() => {
     <Navbar/>
     <Hero/>
     <Main/>
+    <Footer/>
     </LayoutWrapper>
     </>
   )
