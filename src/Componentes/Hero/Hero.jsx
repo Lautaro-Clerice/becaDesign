@@ -3,11 +3,12 @@ import { HeroContainer, ImgPrincipal, TextoPrincipal, Buttons } from './HeroStyl
 import ImgMovil from "../../Img/Becamovil.png"
 import ImgPc from "../../Img/Becapc.png"
 import { FiArrowRight } from "react-icons/fi";
-
+import {FaWhatsapp } from "react-icons/fa6";
 
 const Hero = () => {
   return (
     <HeroContainer>
+      <button className='whatsapp'><a href="https://wa.link/ajdwep"><FaWhatsapp className='logo'/></a></button>
       <TextoPrincipal>
         <h1>Buscas destacar con tu pagina web?</h1>
         <h2>En BecaTemplates tenemos lo que necesitas</h2>

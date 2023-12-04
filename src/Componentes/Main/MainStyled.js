@@ -20,6 +20,7 @@ export const MainContainer = styled.main`
     transform-origin: top right;
     transform: skewY(-3deg)
 }
+    
 `
 
 

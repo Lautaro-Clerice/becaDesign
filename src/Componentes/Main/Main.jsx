@@ -7,7 +7,6 @@ import { FaComputer } from "react-icons/fa6";
 import { IoCheckmark } from "react-icons/io5";
 import { SlQuestion } from "react-icons/sl";
 import EtapasTrabajo from './Trabajo/EtapasTrabajo';
-
 const Main = () => {
   return (
     <>

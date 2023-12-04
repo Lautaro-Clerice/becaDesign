@@ -12,6 +12,28 @@ export const HeroContainer = styled.div`
     flex-direction: column;
     height: 1000px;
 }
+.whatsapp {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background-color: #24ff24;
+        color: white;
+        position:fixed;
+        right: 10px;
+        bottom: 20px;
+        border: none;
+        z-index: 10000000;
+        transition: .2s;
+        &:hover {
+            transform: scale(1.07);
+        }
+        a {
+            color: white;
+        }
+        .logo {
+            font-size: 28px;
+        }
+    }
 `
 
 export const TextoPrincipal = styled.div`
