@@ -26,15 +26,15 @@ const Main = () => {
           </OptionServices>
           <OptionServices>
             <BsEmojiSunglasses className='IconoServices' />
-            <p>Diseños modernos, +20 plantillas para que elijas</p>
+            <p>Diseños modernos, acorde a tus necesidades</p>
           </OptionServices>
           <OptionServices>
             <FaComputer className='IconoServices' />
-            <p>Servicio tecnico durante el primer mes gratis</p>
+            <p>Soporte tecnico 24/7</p>
           </OptionServices>
         </OptionsPadre>
         </Services>
-        <Planes>
+        <Planes id="planes">
           <h2>Elegi el plan ideal para tu negocio</h2>
           <OptionsContainer>
             <PlanesOptions>
@@ -55,7 +55,7 @@ const Main = () => {
               <p><IoCheckmark className='IoCheckmark'/>Tiempo de entrega 20 dias<SlQuestion className='SlQuestion'/></p>
 
               </DetailsPlan>
-              <button className='plan'>Consultar precio</button>
+              <button className='plan' > <a href="https://wa.link/c59i8s">Consultar precio</a></button>
             </PlanesOptions>
             <PlanesOptions className='masVendido'>
               <span><h5>MAS VENDIDO</h5></span>
@@ -73,7 +73,7 @@ const Main = () => {
               <p><IoCheckmark className='IoCheckmark'/>7 dias de soporte gratis<SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Tiempo de entrega 40 dias<SlQuestion className='SlQuestion'/></p>
               </DetailsPlan>
-              <button className='plan'>Consultar precio</button>
+              <button className='plan'><a href="https://wa.link/3g8swy">Consultar precio</a></button>
             </PlanesOptions>
             <PlanesOptions>
             <h3>Plan Premium</h3>
@@ -90,7 +90,7 @@ const Main = () => {
               <p><IoCheckmark className='IoCheckmark'/>Soporte gratis 15 dias<SlQuestion className='SlQuestion'/></p>
               <p><IoCheckmark className='IoCheckmark'/>Hasta 5 cambios Gratis<SlQuestion className='SlQuestion'/></p>
               </DetailsPlan>
-              <button className='plan'>Consultar precio</button>
+              <button className='plan'><a href="https://wa.link/6thxxq">Consultar precio</a></button>
             </PlanesOptions>
           </OptionsContainer>
         </Planes>

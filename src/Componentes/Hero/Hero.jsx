@@ -14,8 +14,8 @@ const Hero = () => {
         <h2>En BecaTemplates tenemos lo que necesitas</h2>
         <p>Armamos tu pagina web para que puedas mostrar tus productos o vender tus servicios!</p>
         <Buttons>
-        <button className='plan'>Elegir plan</button>
-        <button className='mas-info'>Mas info <FiArrowRight className='FiArrowRight'/></button>
+        <button className='plan'><a href="#planes">Elegir plan</a></button>
+        <button className='mas-info'><a href="https://wa.link/wzgmao">Mas info</a> <FiArrowRight className='FiArrowRight'/></button>
         </Buttons>
       </TextoPrincipal>
       <ImgPrincipal>

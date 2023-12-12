@@ -115,7 +115,10 @@ button {
     margin-left: 5px;
 }
 .mas-info {
-    color: #006ECC ;
+    a{
+        color: #006ECC ;
+    }
+    
     box-shadow: 0px 0px 5px #fff;
     transition: all.4s;
     &:hover {
@@ -124,9 +127,13 @@ button {
 }
 .plan {
     background-color: #006ECC;
-    color: #fff; 
     box-shadow: 0px 0px 4px #006ECC ;
     transition: .4s;
+    a{
+        color: #fff; 
+    }
+    
+    
     &:hover {
         background-color: #005CAC;
     }

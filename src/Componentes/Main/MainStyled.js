@@ -131,6 +131,10 @@ export const PlanesOptions = styled.div`
         height: 60px;
         border-radius: 10px;
         font-size: 17px;
+        a {
+            text-decoration: none;
+        color:white;
+        }
     }
     .plan {
         background-color: #006ECC;
@@ -154,6 +158,7 @@ export const PlanesOptions = styled.div`
         transform: translateY(-10px) scale(1.02);
         box-shadow: 0px 5px 8px #80808096;
     }
+    
 `
 export const DetailsPlan = styled.div`
     display: flex;

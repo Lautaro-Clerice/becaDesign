@@ -69,13 +69,17 @@ export const NavbarOptions = styled.div`
         list-style: none;
         color: #d4dadf;
         transition: 0.4s;
-
         &:hover {
             color: #fff;
         }
     }
+    li,a  {
+        text-decoration:none;
+        color:white;
+    }
 
     button {
+        overflow: hidden;
         border-radius: 10px;
         border: none;
         width: 120px;
@@ -85,14 +89,24 @@ export const NavbarOptions = styled.div`
         font-size: 14px;
         font-weight: 600;
         transition: 0.3s;
-
-        &:hover {
-            background-color: #006ECC;
-            color: #fff;
+       
+         a {
+            color:#006ECC;
         }
 
         .IoBagHandleOutline {
-            color: 006ECC;
+            color: #006ECC;
+            transition: 0.3s;
+        }
+        &:hover {
+            background-color: #006ECC;
+            color: #fff;
+            .IoBagHandleOutline {
+                color: white;
+            }
+            a{
+                color: #fff;
+            }
         }
     }
     

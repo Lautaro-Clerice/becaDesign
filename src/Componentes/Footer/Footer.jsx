@@ -14,8 +14,8 @@ const Footer = () => {
         </LogoFooter>
         <OptionsFooter>
           <ButtonFooter>
-            <button className='Comprar'>Comprar plan</button>
-            <button className='Contacto'>Contactanos</button>
+            <button className='Comprar'><a href="#planes">Comprar plan</a></button>
+            <button className='Contacto'><a href="https://wa.link/1enlem">Contactanos</a></button>
           </ButtonFooter>
           <RedesFooter>
             <FaWhatsapp className='iconFooter'/>

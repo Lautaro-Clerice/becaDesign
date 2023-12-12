@@ -83,15 +83,21 @@ export const ButtonFooter = styled.div`
     font-size: 17px;
     }
     .Contacto {
-    color: #006ECC ;
+        a {
+            color: #006ECC ;
+        }
+    
     transition: all.4s;
     &:hover {
         background-color:#D6D6D6 ;
     }
     }
     .Comprar {
+        a{
+            color: #fff; 
+        }
         background-color: #006ECC;
-        color: #fff; 
+        
         transition: .4s;
             &:hover {
                 background-color: #005CAC;

@@ -7,7 +7,7 @@ const EtapasTrabajo = () => {
   return (
     <>
     
-    <EtapasContainer>
+    <EtapasContainer id="nosotros">
         <TituloEtapas>
             <h2>Nuestra modalidad de trabajo</h2>
             <p>Conoce nuestras etapas de trabajo de principio a fin!</p>

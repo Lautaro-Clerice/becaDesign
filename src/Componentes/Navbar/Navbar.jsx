@@ -20,12 +20,12 @@ const Navbar = () => {
             </LogoStyles>
             <NavbarOptions className={ isOpen ? 'open' : ''}>
                 <ul>
-                    <li><LuSend className='iconNavbar'/>Contacto</li>
+                    <li><LuSend className='iconNavbar'/><a href="#">Contacto</a></li>
                     <li><IoCodeWorkingOutline className='iconNavbar'/>Nuestros Trabajos</li>
-                    <li><MdAttachMoney className='iconNavbar'/>Planes</li>
-                    <li><IoPersonOutline className='iconNavbar'/>Sobre nosotros</li>
+                    <li><MdAttachMoney className='iconNavbar'/><a href="#planes">Planes</a></li>
+                    <li><IoPersonOutline className='iconNavbar'/><a href="#nosotros">Sobre nosotros</a></li>
                 </ul>
-                <button><IoBagHandleOutline className='IoBagHandleOutline'/>  Contratar</button>
+                <button><IoBagHandleOutline className='IoBagHandleOutline'/><a href="https://wa.link/1yoki2">  Contratar</a></button>
                 <IoIosClose className='IoIosClose' onClick={() => setIsOpen(false)}/>
 
             </NavbarOptions>
